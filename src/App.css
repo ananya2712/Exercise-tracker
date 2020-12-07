@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/set-sports-attributes_23-2147778577.jpg?size=626&ext=jpg);
+  /* Full height */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 350px;
+}
+
+h1 {
+  letter-spacing: 1px;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+}
+
+h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+header {
+  background-color: #9c88ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+header * {
+  display: inline-block;
+}
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: rgb(16, 2, 27);
+  text-align: center;
+  text-decoration: none;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 200%;
+  border: 1px solid #9c88ff;
+  padding: 8px;
+}
+
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #9c88ff;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #9c88ff;
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: rgb(204, 221, 236);
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+tr:hover {
+  background-color: rgb(153, 150, 150);
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #9c88ff;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
